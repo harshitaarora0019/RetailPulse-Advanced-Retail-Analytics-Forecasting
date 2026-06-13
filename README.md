@@ -7,7 +7,6 @@
 ![Prophet](https://img.shields.io/badge/Prophet-Forecasting-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-
 ## 🌐 Live Demo
 👉 [RetailPulse Live App](https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit.app/)
 
@@ -15,7 +14,7 @@
 - [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)
 - 500K+ transactions · UK-based retail · 2010-2011
 
-![RetailPulse Banner](reports/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
+![RetailPulse Banner](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
 
 ---
 
@@ -76,7 +75,7 @@ RetailPulse/
 │   ├── EDA.ipynb                # Exploratory Data Analysis
 │   ├── RetailPulse.ipynb        # Main analysis notebook
 │   └── NeuralRetail.ipynb       # Neural network experiments
-├── reports/
+├── report/
 │   └── Streamlit Dashboard/     # Dashboard screenshots
 ├── models/                      # Saved ML models
 ├── requirements.txt             # Dependencies
@@ -88,25 +87,25 @@ RetailPulse/
 ## 📸 Screenshots
 
 ### 🏠 Home
-![Home](reports/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
+![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
 
 ### 📁 Upload Dataset
-![Upload](reports/Streamlit%20Dashboard/Upload%20Dataset%20Dashboard.png)
+![Upload](report/Streamlit%20Dashboard/Upload%20Dataset%20Dashboard.png)
 
 ### 📊 Sales Analytics
-![Sales](reports/Streamlit%20Dashboard/Sales%20Analytics%20Dashboard.png)
+![Sales](report/Streamlit%20Dashboard/Sales%20Analytics%20Dashboard.png)
 
 ### 👥 Customer Segmentation
-![Segmentation](reports/Streamlit%20Dashboard/Customer%20Segmentation.png)
+![Segmentation](report/Streamlit%20Dashboard/Customer%20Segmentation.png)
 
 ### 📈 Demand Forecasting
-![Forecast](reports/Streamlit%20Dashboard/Demand%20Forecasting%20Dashboard.png)
+![Forecast](report/Streamlit%20Dashboard/Demand%20Forecasting%20Dashboard.png)
 
 ### ⚠️ Churn Analysis
-![Churn](reports/Streamlit%20Dashboard/Customer%20Churn%20Analysis.png)
+![Churn](report/Streamlit%20Dashboard/Customer%20Churn%20Analysis.png)
 
 ### 📦 Inventory Optimization
-![Inventory](reports/Streamlit%20Dashboard/Inventory%20Optimization.png)
+![Inventory](report/Streamlit%20Dashboard/Inventory%20Optimization.png)
 
 ---
 
@@ -159,6 +158,7 @@ openpyxl
 ## 👩‍💻 About the Author
 
 **Harshita Arora**
+---
 
 <div align="center">
 
