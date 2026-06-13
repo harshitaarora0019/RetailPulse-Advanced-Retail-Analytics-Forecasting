@@ -1,148 +1,252 @@
-# 📊 RetailPulse — AI Retail Analytics & Forecasting Platform
+# 📊 RetailPulse – AI Retail Analytics & Forecasting Platform
 
-> An end-to-end AI-powered retail analytics platform for demand forecasting, customer segmentation, churn analysis, and inventory optimization.
+<p align="center">
+An AI-powered retail analytics platform for customer segmentation, demand forecasting, churn analysis, and inventory optimization.
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)
-![Prophet](https://img.shields.io/badge/Prophet-Forecasting-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3.10+-blue">
+<img src="https://img.shields.io/badge/Streamlit-Dashboard-red">
+<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange">
+<img src="https://img.shields.io/badge/Prophet-Forecasting-green">
+<img src="https://img.shields.io/badge/PowerBI-Business%20Intelligence-yellow">
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-purple">
+</p>
+
+---
 
 ## 🌐 Live Demo
-👉 [RetailPulse Live App](https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit.app/)
+
+**RetailPulse Dashboard**
+
+https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit.app/
+
+---
+
+## 🏠 Dashboard Preview
+
+<img src="report/Streamlit Dashboard/home.png" width="100%">
+
+---
+
+## 📌 Project Overview
+
+RetailPulse is an end-to-end Retail Analytics and Forecasting Platform built using Python, Machine Learning, Forecasting, and Business Intelligence techniques.
+
+The platform transforms retail transaction data into actionable business insights through:
+
+* 📊 Sales Analytics
+* 👥 Customer Segmentation
+* 📈 Demand Forecasting
+* ⚠️ Churn Analysis
+* 📦 Inventory Optimization
+
+Built on the UCI Online Retail Dataset containing more than **500,000 retail transactions**, RetailPulse demonstrates real-world Data Analytics and Data Science workflows.
+
+---
+
+## 🚀 Key Features
+
+### 📊 Sales Analytics
+
+* Revenue KPI Monitoring
+* Daily Sales Trend Analysis
+* Top Product Analysis
+* Customer Purchase Behaviour Analysis
+* Revenue Insights
+
+### 👥 Customer Segmentation
+
+* RFM Analysis
+* K-Means Clustering
+* VIP Customer Identification
+* Loyal Customer Detection
+* Lost Customer Detection
+* Revenue Contribution Analysis
+
+### 📈 Demand Forecasting
+
+* Facebook Prophet Forecasting
+* 30-Day Revenue Prediction
+* Trend Analysis
+* Seasonality Analysis
+* Forecast Visualization
+
+### ⚠️ Churn Analysis
+
+* Customer Inactivity Detection
+* At-Risk Customer Identification
+* Churn Monitoring Dashboard
+
+### 📦 Inventory Optimization
+
+* Forecast-Based Inventory Planning
+* Future Stock Recommendations
+* Inventory Insight Generation
+
+---
+
+## 🛠️ Technology Stack
+
+| Category              | Technology                             |
+| --------------------- | -------------------------------------- |
+| Programming Language  | Python                                 |
+| Data Processing       | Pandas, NumPy                          |
+| Machine Learning      | Scikit-Learn                           |
+| Customer Segmentation | RFM Analysis, K-Means                  |
+| Forecasting           | Facebook Prophet                       |
+| Dashboard             | Streamlit                              |
+| Visualization         | Matplotlib, Seaborn                    |
+| Business Intelligence | Power BI                               |
+| Development Tools     | Git, GitHub, Jupyter Notebook, PyCharm |
+
+---
 
 ## 📂 Dataset
-- [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)
-- 500K+ transactions · UK-based retail · 2010-2011
 
-![RetailPulse Banner](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
+### UCI Online Retail Dataset
 
----
+* 500K+ Retail Transactions
+* UK-Based E-Commerce Store
+* Customer Purchase History
+* Product Sales Data
+* Transaction Records
 
-## 🚀 What is RetailPulse?
+Dataset Source:
 
-RetailPulse is a full-stack Data Science project built on real-world retail transaction data (UCI Online Retail Dataset — 500K+ transactions). It transforms raw sales data into actionable business intelligence through interactive dashboards, predictive models, and AI-driven insights.
-
-Whether you're a business analyst, data scientist, or product manager — RetailPulse gives you the tools to understand your customers, forecast revenue, and make smarter inventory decisions.
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| 📊 Sales Analytics | Revenue trends, KPIs, top products & monthly breakdown |
-| 👥 Customer Segmentation | RFM model + K-Means clustering (VIP, Loyal, Regular, Lost) |
-| 📈 Demand Forecasting | Facebook Prophet — 30-day revenue forecast with confidence bands |
-| ⚠️ Churn Prediction | 90-day inactivity-based churn detection |
-| 📦 Inventory Optimization | Prophet-based stock value recommendations |
-| ⬇️ Export Ready | Download forecast & segmentation CSV for stakeholder reporting |
+https://archive.ics.uci.edu/ml/datasets/online+retail
 
 ---
 
-## 🛠️ Tech Stack
+## 📊 Project Workflow
 
-**Languages**
-- Python
-
-**Data Science & ML**
-- Pandas · NumPy · Scikit-learn · Facebook Prophet
-- K-Means Clustering · RFM Modeling · Time-Series Forecasting
-
-**Visualization & BI**
-- Streamlit · Matplotlib · Seaborn · Power BI
-
-**Tools**
-- Git · GitHub · Jupyter Notebook · PyCharm
+```text
+Raw Retail Dataset
+        │
+        ▼
+Data Cleaning & Preprocessing
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+RFM Analysis
+        │
+        ▼
+Customer Segmentation
+(K-Means Clustering)
+        │
+        ▼
+Demand Forecasting
+(Facebook Prophet)
+        │
+        ▼
+Churn Analysis
+        │
+        ▼
+Inventory Optimization
+        │
+        ▼
+Interactive Streamlit Dashboard
+```
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 RetailPulse/
+│
 ├── app/
-│   ├── main.py                  # Streamlit dashboard (main app)
+│   ├── main.py
 │   └── utils/
-│       └── preprocess.py        # Data cleaning & feature engineering
+│       └── preprocess.py
+│
 ├── dashboards/
-│   └── PowerBI dashboard.pbix   # Power BI dashboard
+│   └── PowerBI dashboard.pbix
+│
 ├── data/
 │   ├── raw/
-│   │   └── Online Retail.xlsx   # Original dataset
+│   │   └── Online Retail.xlsx
+│   │
 │   └── processed/
-│       └── cleaned_retail.csv   # Cleaned dataset
+│       └── cleaned_retail.csv
+│
 ├── notebooks/
-│   ├── EDA.ipynb                # Exploratory Data Analysis
-│   ├── RetailPulse.ipynb        # Main analysis notebook
-│   └── NeuralRetail.ipynb       # Neural network experiments
+│   ├── EDA.ipynb
+│   ├── RetailPulse.ipynb
+│   └── NeuralRetail.ipynb
+│
 ├── report/
-│   └── Streamlit Dashboard/     # Dashboard screenshots
-├── models/                      # Saved ML models
-├── requirements.txt             # Dependencies
+│   └── Streamlit Dashboard/
+│
+├── requirements.txt
+│
 └── README.md
 ```
 
 ---
 
-## 📸 Screenshots
-
+# 📸 Dashboard Screenshots 
 ### 🏠 Home
 ![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
-
+ 
 ### 📁 Upload Dataset
 ![Upload](report/Streamlit%20Dashboard/Upload%20Dataset%20Dashboard.png)
-
+ 
 ### 📊 Sales Analytics
 ![Sales](report/Streamlit%20Dashboard/Sales%20Analytics%20Dashboard.png)
-
+ 
 ### 👥 Customer Segmentation
 ![Segmentation](report/Streamlit%20Dashboard/Customer%20Segmentation.png)
-
+ 
 ### 📈 Demand Forecasting
 ![Forecast](report/Streamlit%20Dashboard/Demand%20Forecasting%20Dashboard.png)
-
+ 
 ### ⚠️ Churn Analysis
 ![Churn](report/Streamlit%20Dashboard/Customer%20Churn%20Analysis.png)
-
+ 
 ### 📦 Inventory Optimization
 ![Inventory](report/Streamlit%20Dashboard/Inventory%20Optimization.png)
+ 
+
+## 💡 Key Business Insights
+
+* Identifies high-value customer segments using RFM analysis.
+* Detects churn-risk customers based on inactivity patterns.
+* Forecasts future revenue trends using Facebook Prophet.
+* Supports inventory planning through predictive analytics.
+* Enables data-driven decision making using interactive dashboards.
 
 ---
 
-## 💡 What Does RetailPulse Tell You?
-
-- 🏆 **Who are your best customers?** — VIP & Loyal segments drive most revenue
-- 📉 **Who is about to leave?** — Churn prediction identifies at-risk customers before it's too late
-- 📅 **What will your revenue look like next month?** — Prophet forecasting with daily confidence intervals
-- 🛒 **Which products sell the most?** — Top 10 product analysis by quantity and revenue
-- 📦 **How much stock should you hold?** — Data-driven inventory recommendations
-
----
-
-## ⚙️ How to Run
+## ⚙️ Installation
 
 ```bash
-# 1. Clone the repo
+# Clone Repository
+
 git clone https://github.com/harshitaarora0019/RetailPulse-Advanced-Retail-Analytics-Forecasting.git
 
-# 2. Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # Mac/Linux
+# Move To Project Directory
 
-# 3. Install dependencies
+cd RetailPulse-Advanced-Retail-Analytics-Forecasting
+
+# Install Dependencies
+
 pip install -r requirements.txt
 
-# 4. Run the app
+# Launch Application
+
 cd app
+
 streamlit run main.py
 ```
 
 ---
 
-## 📦 Dependencies
+## 📦 Requirements
 
-```
+```text
 streamlit
 pandas
 numpy
@@ -155,15 +259,22 @@ openpyxl
 
 ---
 
-## 👩‍💻 About the Author
+## 👩‍💻 Author
 
-**Harshita Arora**
+### Harshita Arora
+
+B.Tech Computer Science Engineering
+
+Data Analytics • Machine Learning • Business Intelligence • Forecasting
+
 ---
 
-<div align="center">
+## ⭐ Support
 
-**Built with 💜 by Harshita**
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-*"Turning raw data into real decisions"*
+---
 
-</div>
+<p align="center">
+<b>Built with ❤️ by Harshita Arora</b>
+</p>
