@@ -25,7 +25,7 @@ https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit
 
 ## 🏠 Dashboard Preview
 
-<img src="report/Streamlit Dashboard/home.png" width="100%">
+![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
 
 ---
 
