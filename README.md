@@ -25,7 +25,7 @@ https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit
 
 ## 🏠 Dashboard Preview
 
-![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
+![📊 RetailPulse Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
 
 ---
 
@@ -190,36 +190,11 @@ RetailPulse/
 ```
 
 ---
-
-# 📸  Streamlit Dashboard 
-### 🏠 Home
-![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
- 
-### 📁 Upload Dataset
-![Upload](report/Streamlit%20Dashboard/Upload%20Dataset%20Dashboard.png)
- 
-### 📊 Sales Analytics
-![Sales](report/Streamlit%20Dashboard/Sales%20Analytics%20Dashboard.png)
- 
-### 👥 Customer Segmentation
-![Segmentation](report/Streamlit%20Dashboard/Customer%20Segmentation.png)
- 
-### 📈 Demand Forecasting
-![Forecast](report/Streamlit%20Dashboard/Demand%20Forecasting%20Dashboard.png)
- 
-### ⚠️ Churn Analysis
-![Churn](report/Streamlit%20Dashboard/Customer%20Churn%20Analysis.png)
- 
-### 📦 Inventory Optimization
-![Inventory](report/Streamlit%20Dashboard/Inventory%20Optimization.png)
-
-
-
  # 📊 Power BI Dashboard
 
-### 📈 Business Intelligence Dashboard
+### 📈 Business Intelligence Dashboard ]
 
-![Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
+![📊 RetailPulse Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
 
 **Insights:**
 - Total Revenue Analysis
@@ -264,6 +239,32 @@ RetailPulse/
 * Enables data-driven decision making using interactive dashboards.
 
 ---
+
+# 📸  Streamlit Dashboard 
+### 🏠 Home
+![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
+ 
+### 📁 Upload Dataset
+![Upload](report/Streamlit%20Dashboard/Upload%20Dataset%20Dashboard.png)
+ 
+### 📊 Sales Analytics
+![Sales](report/Streamlit%20Dashboard/Sales%20Analytics%20Dashboard.png)
+ 
+### 👥 Customer Segmentation
+![Segmentation](report/Streamlit%20Dashboard/Customer%20Segmentation.png)
+ 
+### 📈 Demand Forecasting
+![Forecast](report/Streamlit%20Dashboard/Demand%20Forecasting%20Dashboard.png)
+ 
+### ⚠️ Churn Analysis
+![Churn](report/Streamlit%20Dashboard/Customer%20Churn%20Analysis.png)
+ 
+### 📦 Inventory Optimization
+![Inventory](report/Streamlit%20Dashboard/Inventory%20Optimization.png)
+
+
+
+
 
 ## ⚙️ Installation
 
