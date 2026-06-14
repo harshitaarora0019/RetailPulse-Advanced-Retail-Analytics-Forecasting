@@ -25,7 +25,8 @@ https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit
 
 ## 🏠 Dashboard Preview
 
-![RetailPulse Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
+📈 Business Intelligence Dashboard
+![Business Intelligence Dashboard](dashboards/📊RetailPulse_Business_Intelligence_Dashboard.png)
 
 ---
 
@@ -194,7 +195,7 @@ RetailPulse/
 
 ### 📈 Business Intelligence Dashboard ]
 
-![📊 RetailPulse Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
+![Business Intelligence Dashboard](dashboards/📊RetailPulse_Business_Intelligence_Dashboard.png)
 
 **Insights:**
 - Total Revenue Analysis
