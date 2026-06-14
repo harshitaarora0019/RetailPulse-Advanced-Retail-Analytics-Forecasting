@@ -122,32 +122,36 @@ https://archive.ics.uci.edu/ml/datasets/online+retail
 
 ```text
 Raw Retail Dataset
-        │
-        ▼
+      |
+      ▼
 Data Cleaning & Preprocessing
-        │
-        ▼
+      |
+      ▼
 Exploratory Data Analysis
-        │
-        ▼
+      |
+      ▼
 RFM Analysis
-        │
-        ▼
+      |
+      ▼
 Customer Segmentation
 (K-Means Clustering)
-        │
-        ▼
+      |
+      ▼
 Demand Forecasting
 (Facebook Prophet)
-        │
-        ▼
+      |
+      ▼
 Churn Analysis
-        │
-        ▼
+      |
+      ▼
 Inventory Optimization
-        │
-        ▼
+      |
+      ▼
 Interactive Streamlit Dashboard
+      |
+      ▼
+Power BI Dashboard
+(Business Intelligence Reporting)
 ```
 
 ---
