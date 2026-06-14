@@ -191,7 +191,7 @@ RetailPulse/
 
 ---
 
-# 📸 Dashboard Screenshots 
+# 📸  Streamlit Dashboard 
 ### 🏠 Home
 ![Home](report/Streamlit%20Dashboard/RetailPulse%20—%20AI%20Retail%20Analytics.png)
  
@@ -212,7 +212,48 @@ RetailPulse/
  
 ### 📦 Inventory Optimization
 ![Inventory](report/Streamlit%20Dashboard/Inventory%20Optimization.png)
- 
+
+
+
+ # 📊 Power BI Dashboard
+
+### 📈 Business Intelligence Dashboard
+
+![Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
+
+**Insights:**
+- Total Revenue Analysis
+- Total Orders & Customers
+- Revenue by Country
+- Top Selling Products
+- Sales by Hour
+- Revenue Trend Analysis
+
+---
+
+### 👥 Customer Intelligence Dashboard
+
+![Customer Intelligence Dashboard](dashboards/Customer%20Intelligence%20Dashboard.png)
+
+**Insights:**
+- Customer Segmentation using RFM Analysis
+- VIP, Lost, Regular & Loyal Customers
+- Revenue Contribution by Segment
+- Recency vs Monetary Analysis
+- Customer Distribution Analysis
+
+---
+
+### 📦 Forecast & Inventory Intelligence Dashboard
+
+![Forecast Dashboard](dashboards/Forecast%20%26%20Inventory%20Intelligence%20Dashboard.png)
+
+**Insights:**
+- 30-Day Revenue Forecast
+- Forecast Confidence Intervals
+- Expected Daily Revenue
+- Peak & Lowest Revenue Prediction
+- Inventory Recommendation System
 
 ## 💡 Key Business Insights
 
