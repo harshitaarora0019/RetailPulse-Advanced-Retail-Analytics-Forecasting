@@ -25,7 +25,7 @@ https://retailpulse-advanced-retail-analytics-forecasting-c5kfyjefbhjn.streamlit
 
 ## 🏠 Dashboard Preview
 
-![📊 RetailPulse Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
+![RetailPulse Business Intelligence Dashboard](dashboards/RetailPulse%20Business%20Intelligence%20Dashboard.png)
 
 ---
 
